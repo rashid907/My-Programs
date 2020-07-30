@@ -1,3 +1,10 @@
+#-------------------Number Guessing Game-------------
+'''In this Game Computer generate a number and User has to guess it.
+ Game Has 3 level's :-
+ 1.Easy(15 Chance):Anyone can guess it
+ 2.Medium(10 Chance): Smart user can guss it
+ 3.Hard(5 Chance):You can't
+'''
 import random # Modul for Generating Random Number
 
 x = random.randint(1,100) #Generating Random Number Between 1 to 100
