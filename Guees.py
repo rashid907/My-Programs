@@ -5,19 +5,19 @@
  2.Medium(10 Chance): Smart user can guss it
  3.Hard(5 Chance):You can't
 '''
-import random # Modul for Generating Random Number
+import random  #Modul for Generating Random Number
 
 x = random.randint(1,100) #Generating Random Number Between 1 to 100
-i = 0
+i = 0 
 
 print("Number Guessing Game!!") #Introducing
-print("1. Easy(15 Chance)")         
-print("2. Medium(10 Chance)")       
-print("3. Hard(5 Chance)")
-a = int(input("Enter your Choice:"))
-if (a==1):
-    chance = 15
-    while (i<chance):
+print("1. Easy(15 Chance)")     #For Easy Game       
+print("2. Medium(10 Chance)")   #For Medium Game     
+print("3. Hard(5 Chance)")      #For Hard Game 
+a = int(input("Enter your Choice:")) #Asking User for Option
+if (a==1):                                #Checking For 1st Option
+    chance = 15                           #In Easy game you have 15 chances
+    while (i<chance):                     #Check for Condition
         print("Chance Left:",chance-i)
         n = int(input("Enter the no.:"))
 
