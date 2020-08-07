@@ -1,2 +1,2 @@
-# SimpleGames
-In this Respository i upload my simple game. I made using python
+# My Programs
+In this Respository i upload my Programs. I made using python
